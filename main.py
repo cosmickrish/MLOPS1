@@ -21,4 +21,3 @@ print(f'Accuracy: {accuracy}')
 # Save the trained model to a file
 joblib.dump(model, 'model.pkl')
 print('Model saved as model.pkl')
-
