@@ -1,7 +1,6 @@
-import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear.model import LogisticRegression
 import joblib
 
 # Load the iris dataset
@@ -22,3 +21,4 @@ print(f'Accuracy: {accuracy}')
 # Save the trained model to a file
 joblib.dump(model, 'model.pkl')
 print('Model saved as model.pkl')
+
